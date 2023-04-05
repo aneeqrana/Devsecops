@@ -1,0 +1,29 @@
+Start with securing the Development environment 
+
+IDE 
+pre commit hooks - Ensure that Access keys, Access tokens, ssh keys and other important information is not directly integrated into code commits, have an ignore file to prevent these files to be pushed, such as in git we have .gitignore file to prevent these files to be pushed.
+IDE Plugins - Use IDE plugins to identify potential bugs that could lead to vulnerabilities. 
+
+Code Repo
+Secret management - Allows devs to tokenize the credentials that may be stored in config files
+Key valut - Allows devs to secure store and control Access tokens, pwds, certificates, encryption keys and other sensitives information. 
+
+
+CI/CD Pipelines
+Software composition analysis
+Static Application Security Testing (SAST)
+Dynamic Applcation Security Testing (DAST)
+
+QA Staging
+Do QA pentesting on the staging application. 
+Find Business Logic flaws on staging
+
+Continous Security Monitoring
+This includes Monitoring, Testing Audit and Compliance Checks.
+Implment
+
+Threat Intelligence
+Cyber Simulations 
+SIEM/SOC 
+RASP
+

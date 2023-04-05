@@ -1,0 +1,79 @@
+Fundamentals of OWASP Devsecops (DSOM) Maturity Model
+
+OWASP DSOM is a framework developed to show application security measures which can be applied using Devsecops.
+
+It has 4 Levels (Level 1 - Least to Level 4 - Fully implemented )
+
+Level 1 - Basic Understandings of Security practices
+
+Level 2 - Adoption of basic Security practices
+
+Level 3 - High Adoption of security practices 
+
+Level 4 - Advanced adoption of security practices
+
+
+Matrix 
+Dimension 
+- Build and Deployment
+- Culture and Organization
+- Implementation
+- Information Gathering 
+- test Verification
+
+Sub-dimension
+- Each dimension is made up of subdimensions, eg. The implementation dimension is comprised of infrastructure hardening and application hardening. 
+
+Test and verification Dimension
+Static Depth: How comprehensive/deep the static code scan executed within the CI pipeline 
+Dynamic Depth: How comprehensive/deep the dynamic scans executed within the CI pipeline
+Intensity: How frequent are the security scans running in CI pipelines 
+Consolidation: How complete is the process of handling findings in the CI pipeline
+
+
+Sub Dimension Static Depth
+
+Level 1 - Basic Understandings of Security practices
+test of server side components with known vulneribilites
+Level 2 - Adoption of basic Security practices
+Static analysis for important server side componenets 
+Level 3 - High Adoption of security practices 
+Static analysis of important clinet side componenets 
+test of client side components with known vulneribilities 
+Level 4 - Advanced adoption of security practices
+Exclusion of source code duplicates 
+static analysis for all components/libraries
+static analysis for all self written components 
+styllic analysis 
+Usage of multiple analyzers 
+
+
+
+
+Sub Dimension Dynamic Depth
+Level 1 - Basic Understandings of Security practices
+Simple scan
+Level 2 - Adoption of basic Security practices
+Coverage client side dynamic components
+Usage of different roles 
+Level 3 - High Adoption of security practices 
+Coverage of hidden endpoints 
+coverage of more input vectors 
+coverage of sequential operations 
+usage of multiple scanners
+Level 4 - Advanced adoption of security practices
+Coverage analysis 
+Coverage of service to service communication
+
+
+
+Dimension Culture and Organization
+Level 1 - Basic Understandings of Security practices
+Conduction of Simple threat modeling on technical level 
+Level 2 - Adoption of basic Security practices
+Conduction of Simple threat modeling on business level 
+Creation of simple abuse stories 
+Level 3 - High Adoption of security practices 
+Conduction of advanced threat modeling 
+Level 4 - Advanced adoption of security practices
+Creation of advanced abuse stories
