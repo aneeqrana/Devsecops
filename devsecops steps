@@ -1,0 +1,6 @@
+Threat monitoring for github or any repo being used
+Identity and Access management - Login credentails management
+Maintain and Administer repository settings 
+Automated and manual monitoring in github to detect sudden spikes in source code checkins 
+Monitor and detect logins from unusual locations, logins or requests or from users outside the organuzation. 
+Aggregate and analyze Githib logs for threat analysis, Any unsuual activity detected can be reported through dashboards or even messaged to stakeholders as a means of providing early warning of potential threat. 

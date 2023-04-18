@@ -30,7 +30,6 @@ Dynamic Depth: How comprehensive/deep the dynamic scans executed within the CI p
 Intensity: How frequent are the security scans running in CI pipelines 
 Consolidation: How complete is the process of handling findings in the CI pipeline
 
-
 Sub Dimension Static Depth
 
 Level 1 - Basic Understandings of Security practices

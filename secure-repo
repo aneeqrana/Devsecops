@@ -1,0 +1,53 @@
+Software repo Vulneribilities
+
+There are several tools used by the attackers to find vulnerabilities.
+Some information that can be unintentionally exposed includes
+
+Secrets inside commended code, such as Private keys, API keys or internal domains.
+Regular expression plugins to find specific codes, secrets, names or PII inside the code.
+Internal Project names that can result an incident which exposes too much internal company information.
+CI/CD integration that fails a build if something is found or a rule is fired. 
+
+Security Challenges of Repo
+
+Repos should be private in public repo it is easy to find sensitive information such as: 
+
+Hardcoded Passwords
+Sensitive Conf files 
+DB connecton Strings 
+Private SSL keys
+Private SSH keys
+Uploaded linux/Unix home directories with sensitive dot files 
+~/.ssh directories with keys
+
+
+Best Practices
+Strong Access Controls 
+Implement Least privilege
+Use 2FA by everyone Associated with the repo
+
+Protect the credentials 
+Seperarte Secret creds from source code.
+Use ignore files to prevent the sensitive information to be pushed.
+Use Secret management softwares 
+Never store creds as code/config in github
+
+Never Commit sensitive information 
+Implement pre commit hook.
+
+Review all code changes 
+Keep git related tools up to date 
+
+Sign your work
+Implement signed commits and tags into workflows. 
+
+
+
+
+We can scan our git repo for credentials to see if we have any sensitive information shared on the repo. 
+Use the tools like 
+Gittyleaks
+Gitsecrets
+Repo Supervisor
+GitHound 
+Repo Security Scanner
